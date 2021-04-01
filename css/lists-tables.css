@@ -56,3 +56,86 @@
     padding: 3px 8px;
     border-radius: 3px;
 }
+
+.list-image {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-image li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 170%;
+}
+
+.list-image li:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url('lion.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 15%;
+    transform: translateY (-50%);
+}
+
+.popular-sites {
+    list-style: none;
+    padding-left: 0;
+}
+
+.popular-sites li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 170%;
+}
+
+.popular-sites li:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url('myface.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 15%;
+    transform: translateY (-50%);
+}
+
+.fave-games {
+    list-style: none;
+    padding-left: 0;
+}
+
+.fave-games li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 170%;
+}
+
+.fave-games li:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 15%;
+    transform: translateY (-50%);
+}
+
+.persona:before {
+    background-image: url(p5r.png);
+}
+
+.danganronpa:before {
+    background-image: url(dangan.png);
+}
+
+.ror:before {
+    background-image: url(ror.png);
+}
