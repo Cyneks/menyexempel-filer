@@ -108,10 +108,16 @@
 .fave-games {
     list-style: none;
     padding-left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 123, 0);
+    width: 20%;
 }
 
 .fave-games li {
     position: relative;
+    background-color:rgb(251, 255, 0);
+    margin: 5px;
     padding-left: 30px;
     line-height: 170%;
 }
@@ -130,10 +136,12 @@
 
 .persona:before {
     background-image: url(p5r.png);
+    background-color: white;
 }
 
 .danganronpa:before {
     background-image: url(dangan.png);
+    background-color: white;
 }
 
 .ror:before {
