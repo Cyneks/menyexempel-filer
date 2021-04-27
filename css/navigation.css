@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  color: white;
   background-color: #dbdbdb;
   width: 100%;
   border: 1px solid blue;
@@ -47,6 +46,7 @@
 }
 
 .dropdown-content a:hover {
+  color: white;
   background-color: gray;
 }
 
