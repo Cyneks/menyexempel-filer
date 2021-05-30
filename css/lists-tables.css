@@ -190,3 +190,32 @@ th, td {
         background-color: #acffe3;
         
         }
+
+    .scroll-bar {
+        overflow-x: auto;
+    }
+
+    .table-image {
+        margin: 0 auto;
+    }
+
+    table.GeneratedTable {
+        width: 100%;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        border-width: 2px;
+        border-color: #490bda;
+        border-style: solid;
+        color: #000000;
+      }
+      
+      table.GeneratedTable td, table.GeneratedTable th {
+        border-width: 2px;
+        border-color: #490bda;
+        border-style: solid;
+        padding: 3px;
+      }
+      
+      table.GeneratedTable thead {
+        background-color: #2ec6d1;
+      }
